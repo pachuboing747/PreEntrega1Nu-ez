@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contenedor">
+    <h1>conversor de dolares</h1>
+    <p class="info"> (*A partir del dolar oficial, calculamos otros dolares)</p>
+    <label>Ingrese el valor del dolar oficial</label>
+    <input class="input" type="text" id="dolar-oficial">
+    <br>
+    <br>
+    <button type="button" class="btn" onClick="cambio()">
+    convertir
+    </button>
+    <br>
+
+    <h3> Tipos de Dolares</h3>
+    
+    <label> Dolar solidario</label>
+    <p type="text" id="ahorro"></p>
+
+    <label> Dolar Tarjeta</label>
+    <p type="text" id="tarjeta"></p>
+
+    <label> Dolar qatar </label>
+    <p type="text" id="qatar"></p>
+
+    <h3>Otras cotizaciones</h3>
+
+    <!-- Estos dolares no se pueden calcular, dependen del mercado (compra-venta) -->
+    <a href=https://dolarhoy.com/cotizaciones> Dolar Blue</a>
+    <br>
+    <a href=https://dolarhoy.com/cotizaciones> Dolar Bolsa</a>
+    <br>
+    <a href=https://dolarhoy.com/cotizaciones> Dolar contado con liqui</a>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
